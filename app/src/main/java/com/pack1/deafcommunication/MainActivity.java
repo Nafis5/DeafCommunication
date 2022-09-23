@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         toolbar=findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         //khela hobe
+        //ki hoilo
 
         dl = (DrawerLayout) findViewById(R.id.dl);
         abdt = new ActionBarDrawerToggle(this, dl, R.string.Open, R.string.CLose);
